@@ -1,6 +1,6 @@
 ebankdo_r3_struts-1
 ========================
-Banking R0. Java, Struts 1, Hibernate 3, Oracle, mysql
+Banking R0. Java, Struts 1, Hibernate 3, mysql
 
 Description:
 -------------------
@@ -12,7 +12,7 @@ Functionalities:
 
 Technologies used:
 -------------------
-- Server Side Technology: Apache Struts 1.3.10, Hibernate 3.
+- Server Side Technology: Apache Struts 1.3.10, Hibernate 3, Oracle DataBase 11g R2.
 - Client Side Technology: HTML, CSS, JavaScript, Twitter Bootstrap 3, JQuery.
 - IDE: Netbeans
 
@@ -48,10 +48,10 @@ Installation Process:
 
 - Step 0: Create table into the DataBase: 
    for Oracle: /Setup/DB/ebankdo_r1_db_mysql.sql
-   for Oracle: /Setup/DB/ebankdo_r1_db_oracle.sql
 
+- Step 1: Config DataBase connection: /src/java/hibernate.cfg.xml
 
-- Step 2: Config DataBase connection: /src/java/hibernate.cfg.xml
+- Step 2: Generate WAR file and Deploy
 
 - Step 3: view app http://localhost:8080/ebankdo-r3-Struts-1/
  
@@ -61,7 +61,7 @@ Important Folders:
 - Screenshots: System Image.
 - HTML: Clear HTML template of the System.
 - src/* : Java file, configuration file, xml, html, css, javascript
-- Setup: /src/java/hibernate.cfg.xml
+- Setup: DB script, unix script and manual
 
 
 Significant Note:
